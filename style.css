@@ -216,6 +216,13 @@ p { color: var(--muted); line-height: 1.75; }
 }
 .see-all:hover { color: var(--accent); border-color: var(--accent); }
 
+/* ── Color bands (full-width alternating section backgrounds) ── */
+.band { width: 100%; }
+.band-white  { background: #FFFFFF; }
+.band-cream  { background: var(--bg); }
+.band-warm   { background: #F0E2D0; }
+.band-tan    { background: #E8D0BC; }
+
 .divider { border: none; border-top: 1px solid var(--border); margin: 0 32px; }
 
 /* ============================================
@@ -421,7 +428,7 @@ p { color: var(--muted); line-height: 1.75; }
 /* ============================================
    ABOUT
    ============================================ */
-.about-section { background: var(--bg-alt); border-radius: 2px; }
+.about-section { background: transparent; }
 .about-inner {
   display: flex; gap: 48px; align-items: flex-start;
 }
@@ -450,6 +457,7 @@ p { color: var(--muted); line-height: 1.75; }
    FOOTER
    ============================================ */
 .footer {
+  background: #FAF8F4;
   border-top: 1px solid var(--border);
   padding: 48px 32px 0; margin-top: 0;
 }
